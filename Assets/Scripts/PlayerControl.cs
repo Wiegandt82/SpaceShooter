@@ -21,12 +21,9 @@ public class PlayerControl : MonoBehaviour
     [Header("Player input based tuning")]
     [SerializeField] float controlPitchFactor = -3f;
     [SerializeField] float controlRollFactor = -27;
-    
 
     float yThrow;
     float xThrow; 
-
-    
 
     // Update is called once per frame
     void Update()
