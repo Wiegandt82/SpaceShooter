@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1930367941520416976}
   - component: {fileID: 8577202748178636329}
   - component: {fileID: 646099754113129300}
+  - component: {fileID: -3088402142174542307}
   m_Layer: 0
   m_Name: FX_ExplosionEnemy
   m_TagString: Untagged
@@ -4783,6 +4784,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-3088402142174542307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290026498969988090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44af068ef6a56844180e5cb956e69ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeTillDestroy: 1
 --- !u!1 &561796271691522283
 GameObject:
   m_ObjectHideFlags: 0
