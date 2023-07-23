@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3127825833613392568}
   - component: {fileID: 731229795744903793}
   - component: {fileID: 2655393418426921275}
-  - component: {fileID: -2198419259905809482}
   m_Layer: 0
   m_Name: X-Wing
   m_TagString: Untagged
@@ -28,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620971454605980626}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -55.278877, y: 18.4, z: -28.3}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8765132944356008536
 MeshFilter:
@@ -120,25 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d973ebdee85c454db6e173db7eb7acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 0}
-  hitVFX: {fileID: 0}
-  parent: {fileID: 0}
-  scorePerHit: 15
-  hitPoints: 2
---- !u!114 &-2198419259905809482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620971454605980626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d973ebdee85c454db6e173db7eb7acf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathVFX: {fileID: 0}
-  hitVFX: {fileID: 0}
-  parent: {fileID: 0}
+  deathVFX: {fileID: 290026498969988090, guid: be4736e884b7e2f4a9dca37c3033da64, type: 3}
+  hitVFX: {fileID: 1870636092773476203, guid: 586083bdb8bc9824aa1c2fe964618e0c, type: 3}
   scorePerHit: 15
   hitPoints: 2
