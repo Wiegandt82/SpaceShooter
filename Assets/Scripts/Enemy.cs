@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathVFX;
+    [SerializeField] GameObject hitVFX;
     [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 15;
     [SerializeField] int hitPoints = 2;
@@ -28,6 +29,8 @@ public class Enemy : MonoBehaviour
 
     private void ProcessHit()
     {
+        GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
+        vfx.transform.parent = parent;
         hitPoints--;
         scoreBoard.IncreaseScore(scorePerHit);
     }
